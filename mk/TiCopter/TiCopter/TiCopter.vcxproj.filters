@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AP_Hal_TiCopter">
+      <UniqueIdentifier>{14b8932c-e35c-4e01-8a38-e368e606949d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AP_Hal_TiCopter\inc">
+      <UniqueIdentifier>{fce18c35-a707-4c51-89e2-4e5947dd4520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AP_Hal_TiCopter\src">
+      <UniqueIdentifier>{0d76a6a0-6fe3-410b-b7f9-d0c884d296ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ArduCopter\APM_Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\APM_Config_mavlink_hil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\config_channels.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\Copter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\Parameters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ArduCopter\UserVariables.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\AnalogIn.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\AP_HAL_TiCopter.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\AP_HAL_TiCopter_Main.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\AP_HAL_TiCopter_Namespace.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\AP_HAL_TiCopter_Private.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\GPIO.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\HAL_TiCopter_Class.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\I2CDriver.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\PrivateMember.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\RCInput.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\RCOutput.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\Scheduler.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\Semaphores.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\SPIDriver.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\Storage.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\UARTDriver.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libraries\AP_HAL_TiCopter\Util.h">
+      <Filter>AP_Hal_TiCopter\inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ArduCopter\AP_State.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\ArduCopter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\Attitude.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\capabilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\commands.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\commands_logic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\compassmot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\compat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_acro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_althold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_auto.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_autotune.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_brake.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_circle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_drift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_flip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_guided.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_land.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_loiter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_poshold.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_rtl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_sport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\control_stabilize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\Copter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\crash_check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\ekf_check.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\esc_calibration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\events.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\failsafe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\fence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\flight_mode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\GCS_Mavlink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\heli.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\heli_control_acro.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\heli_control_stabilize.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\inertia.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\land_detector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\landing_gear.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\leds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\motor_test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\motors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\navigation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\Parameters.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\perf_info.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\position_vector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\precision_landing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\radio.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\sensors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\setup.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\switches.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\takeoff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\tuning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ArduCopter\UserCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\AnalogIn.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\GPIO.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\HAL_TiCopter_Class.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\I2CDriver.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\PrivateMember.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\RCInput.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\RCOutput.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\Scheduler.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\Semaphores.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\SPIDriver.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\Storage.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libraries\AP_HAL_TiCopter\UARTDriver.cpp">
+      <Filter>AP_Hal_TiCopter\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
